@@ -37,6 +37,8 @@ body {
   background: var(--bg-url) no-repeat center/cover;
   margin-top: 0;
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 body * {
@@ -45,8 +47,8 @@ body * {
 }
 
 #container {
-  display: grid;
-  place-content: center;
+  /* display: grid; */
+  /* place-content: center; */
   width: 100%;
   max-width: 588px;
   margin: 0px auto;
